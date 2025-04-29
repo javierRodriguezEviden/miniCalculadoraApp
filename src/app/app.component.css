@@ -1,0 +1,18 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  app-root {
+    flex: 1; /* Para ocupar todo el alto restante */
+    display: flex;
+    flex-direction: column;
+  }
